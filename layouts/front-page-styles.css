@@ -1,0 +1,318 @@
+/*
+* Theme Name: SOE-Faculty
+* Layout: Front Page
+*/
+
+.page .site-content { 
+	padding-bottom: 4em;
+    background: #fff; 
+    background: hsl(0, 0%, 100%);
+}  
+
+.content-area {
+	width: 100%;
+	float: right;
+	margin-left: -380px;
+	padding-left: 380px;
+}             
+
+.site-content .widget-area {
+	float: left;
+    width: 380px;
+    padding:  2rem 4rem 4rem;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+	position: relative;
+	z-index: 1;
+}
+
+.site-content #profile-content {
+	padding: 0;	
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.info-header,
+.entry-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.page-header,
+.paging-navigation {
+    position: relative;
+	max-width: 880px;
+	max-width: 88rem;
+    padding: 0;
+    margin: 0;
+}
+
+.page-header,
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+	margin-top: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+}  
+
+.index-box {
+    max-width: 880px;
+    max-width: 88rem;
+    padding: 0;
+    margin: .7em 0 0;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+} 
+
+.activity-container { 
+	margin: .7em 2em 0 0;
+	padding: 0;
+}                 
+
+@media screen and (min-width: 1280px) {
+	.wrapper {
+		width: 1280px;
+		margin: 0 auto;
+	}
+	
+	.column-wrapper {
+		width: 880px;
+		width: 88rem;
+		overflow: hidden;
+	}
+	
+	.column-item {
+		width: 440px;
+		width: 44rem;	
+	}
+	
+	.column-item:nth-child(odd) {
+		float: left;	
+	}
+	
+	.column-item:nth-child(even) {
+		float: right;	
+	}
+	
+	.activity-container { 
+		margin-right: 0;
+	}  
+	
+	.column-item:nth-child(odd) p {
+		padding-right: 1em;	
+	}    
+	
+}
+
+@media screen and (max-width: 768px) {  
+	.content-area {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	
+	.site-content .widget-area {
+		float: none;
+		width: 100%;
+		padding: 2rem 2rem 0;
+	}
+	
+	.site-content #profile-widgets {
+		display: none;	
+	}
+	
+	.activity-container { 
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+
+}
+
+.faculty-post-thumbnail { margin-bottom: 1.5em; } 
+
+.faculty-post-thumbnail img { 
+	display: block;
+	margin: 0 auto;	
+	border-radius: 50%;
+    border: 7px solid #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 768px) and (min-width: 728px) {
+	.faculty-post-thumbnail {
+		width: 300px;
+		float: right;	
+	}
+	
+	.info {
+		width: 388px;
+		float: left;	
+	}
+	
+	.content-area {
+		clear: both;	
+	}
+	
+	.column-wrapper {
+		width: 728px;
+		width: 72.8rem;
+		overflow: hidden;
+	}
+	
+	.column-item {
+		width: 364px;
+		width: 36.4rem;	
+	}
+	
+	.column-item:nth-child(odd) {
+		float: left;	
+	}
+	
+	.column-item:nth-child(even) {
+		float: right;	
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+/* Typography */
+.about-faculty-contact {
+	padding: 0;
+    margin: .3em 0 1em;
+    list-style-type: none;
+}
+
+.about-faculty-contact li { 
+	padding: 0;
+	display: block;	 
+}
+
+.about-faculty-contact a { 
+	text-decoration: none; 
+	word-wrap: break-word !important; 
+}
+
+.about-faculty-contact a:hover {
+	text-decoration: underline;
+}
+
+.info-header {
+	border-bottom: 2px solid #8BA034;
+}
+
+.info-title,
+.activity-title {
+	margin: .3em 0;
+	font-family: 'FuturaBT', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #525252;
+    color: hsl(0,0%,32%);
+}
+
+.entry-header a {
+	margin: 0;	
+}
+
+
+.info,
+.info p,
+.entry-content p,
+.entry-meta {
+	margin: .3em 0;	
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+
+.latest-posts {
+	display: block;
+	font-size: small;
+}
+
+.expertise-show-all:hover,
+.expertise-show-less:hover,
+.philosophies-show-all:hover,
+.philosophies-show-less:hover,
+.presentations-show-all:hover,
+.presentations-show-less:hover,
+.publications-show-all:hover,
+.publications-show-less:hover,
+.awards-show-all:hover,
+.awards-show-less:hover,
+.research-interests-show-all:hover,
+.research-interests-show-less:hover,
+.internal-grants-show-all:hover,
+.internal-grants-show-less:hover,
+.external-grants-show-all:hover,
+.external-grants-show-less:hover,
+.professional-leadership-show-all:hover,
+.professional-leadership-show-less:hover,
+.organizations-show-all:hover,
+.organizations-show-less:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.expertise-toggle,
+.expertise-less,
+.expertise-show-less,
+.philosophies-toggle,
+.philosophies-less,
+.philosophies-show-less,
+.presentations-toggle,
+.presentations-less,
+.presentations-show-less,
+.publications-toggle,
+.publications-less,
+.publications-show-less,
+.awards-toggle,
+.awards-less,
+.awards-show-less,
+.research-interests-toggle,
+.research-interests-less,
+.research-interests-show-less,
+.internal-grants-toggle,
+.internal-grants-less,
+.internal-grants-show-less,
+.external-grants-toggle,
+.external-grants-less,
+.external-grants-show-less,
+.professional-leadership-toggle,
+.professional-leadership-less,
+.professional-leadership-show-less,
+.organizations-toggle,
+.organizations-less,
+.organizations-show-less { 
+	display: none; 
+}
+
+.edit-link a {
+	text-decoration: underline;	
+}
+
+li a.curriculum-vitae {
+	display: block;
+	padding: 1rem;
+	background: #8BA034;
+    background: hsl(72,51%,42%);
+	color: #fff;
+	color: hsl(0,0%,100%);
+	text-align: center;
+}
+li a.curriculum-vitae:hover {
+	text-decoration: none;
+	background: #fecb00;
+    background: hsl(48,100%,50%);
+}
